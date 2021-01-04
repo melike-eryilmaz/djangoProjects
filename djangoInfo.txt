@@ -1,0 +1,17 @@
+Django framework ile python web programlama yapılabilir.
+Vscode microsoft un geliştirdiği açık kaynak kodlu bir editördür.Burada django ile projelerimizi geliştirirken vscode kullanacağız.
+
+python -m django --version : vscode üzerinde django versiyonu görmek için kullanılan komuttur.
+django-admin startproject bookstore : bookstore isimli bir klasör açar.
+Bu komutu çalıştırdıktan sonra djangoProjetcs içerisinde bookstore isimli bir dosya açıldığını görürüz.
+Settings.py,urls.py,manage.py vs..
+
+manage.py :cli komut satırı uygulamasıdır.
+Admin -uygulama yayına alma vs.. gibi işlemleri yönetmemizi sağlar.
+
+settings.py : uygulamamızla ilgili ayaralarımıızı verdiğimiz yerdir.
+urls.py : uygulamadaki yolları tanımlamamızı sağlar.
+
+python manage.py runserver : uygulamayı yayına almak için kullanılan komuttur.
+
+Bu komutu manage.py ile aynı dizindeyken çalıştırdığımız zaman http://127.0.0.1:8000/ adresinden web uygulamamızın ilk halini görebiliriz.
