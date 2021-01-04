@@ -1,0 +1,8 @@
+Model veritabAnı ile entegrasyonu sağlayan kısımdır.
+Veritabanındaki tabloların karşılığı models içerisine yazılır.
+Django ilk başta ORM veritabanıyla classlarımızı bağlayan bir yapı ile birlikte gelir.
+
+views.py django da kullanıcıya gösterilecek görüntü için kuralların yazıldığı yerdir.
+
+Kullanıcı request atar sonucunda response döner.
+Kullanıcının yaptığı herşey yönetilmesi gereken yapı haline gelir.

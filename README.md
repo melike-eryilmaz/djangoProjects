@@ -9,3 +9,6 @@ Kodların eklenme sırası aşağıdaki gibidir.
 
 2.bookstore dosyası
 
+3.booksAppAddInfo.txt ve books klasörü 
+
+4.modelInfo.txt
