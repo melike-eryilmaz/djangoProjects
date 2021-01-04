@@ -1,0 +1,17 @@
+Bookstore üstünde books adında bir üst application oluşturmak için aşağıdaki adımları izliyoruz.
+
+1.python manage.py startapp books komutunu terminalde çalışıtırdık.
+
+2.books application bir üst dizine geldiğini gördük,içerisinde views,tests,models,admin,models şeklinde dosyalar geldiğini gördük.
+
+3. views dosyasında eğer books a bir request gelirse çalışacak bir function tanımladık.Gelen istekleri yönetebilmek için HttpResponse kullandık.
+
+4.books altında urls.py oluşturup içerisinde eğer booksa istek gelirse açılacak view functionu tanımladık.
+
+5.Books altında tanımladığımız route yapısını ana modüle(urls.py) ekledik..
+
+6.Uygulamayı kırıp yeniden yayına aldık.
+
+7.Üste http://127.0.0.1:8000/books/ yolunu girdiğimizde index içerisindeki  kodun çalıştığını görürüz.
+
+8.Django admin modülü ile birlikte gelir .Üstteki yolu http://127.0.0.1:8000/admin/ yaparsanız hali hazırda gelmiş olan modülü görürsünüz.
